@@ -23,7 +23,7 @@ produtos.forEach(product => {
     const productItem = document.createElement("div");
     
     productItem.classList.add("product-item");
-
+ 
     const productImage = document.createElement("img");
     productImage.src = product.image;
     productImage.alt = product.name;
